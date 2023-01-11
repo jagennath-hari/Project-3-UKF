@@ -7,13 +7,13 @@ Download the [dataset](https://drive.google.com/uc?export=download&id=1IVhh4lF6x
 Computed state of quadrotor using the corner extraction from April Tags.
 
 ### Results
-<p align = 'center'><img src ='assets/corner_extraction.jpg' width="1000" height="600" ></p> 
+<p align = 'center'><img src ='assets/UKF1.jpg' width="1000" height="600" ></p> 
 
 ## Part 2
 State estimation of quadrotor using optical flow using ORB and KLT tracker.
 
 ### Results
-<p align = 'center'><img src ='assets/optical_flow_RANSAC.jpg' width="1000" height="600" ></p> 
+<p align = 'center'><img src ='assets/UKF2.jpg' width="1000" height="600" ></p> 
 
 ## Report
 To read a detailed report, click [HERE](assets/Report.pdf).
