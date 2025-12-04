@@ -2,7 +2,20 @@
 Implementation of Unscented Kalman Filter to estimate state of quadrotor using optical flow and IMU.
 
 ## Setup
-Download the [dataset](https://drive.google.com/uc?export=download&id=1IVhh4lF6xcP7BuDsRNfJ9aH8xVaXKZBn) and extract it inside the `data` folder.
+The dataset required for this project is stored in the [data](data) directory and managed using **Git LFS**.
+
+Clone the repository with Git LFS enabled:
+
+```bash
+git lfs install
+git clone https://github.com/jagennath-hari/Project-3-UKF
+```
+
+If you cloned the repo without LFS enabled, run:
+```bash
+git lfs pull
+```
+
 ## Part 1
 Unscented Kalman Filter for fusing IMU data with pose(position and orientation) from optical flow.
 
